@@ -1,0 +1,5 @@
+    <p>Last records in my blog</p>
+    {% for post in posts %}
+      {{ post.title}}</br>
+      {{ post.published_date }}</br></br>
+    {% endfor %}
